@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 2.1</title>
+    <style>
+        h3 {
+            font-family: sans-serif;
+            color: brown;
+        }
+        #btn {
+            background-color: brown;
+            color: white;
+            border: none;
+            width: 100px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        #btn:hover {
+            background-color: red;
+        }
+        #btn:active {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <h1>Programa Olá Você</h1>
+    <form>
+        <p>
+            Nome:
+            <input type="text" id="inNome">
+            <input type="submit" value="Mostrar" id="btn">
+        </p>
+    </form>
+    <h3></h3>
+    <script src="assets/js/ex2_1.js"></script> <!--Necessário colocar a tag script antes do fechamento da tag body, para o form não retornar como NULL-->  
+</body>
+</html>
